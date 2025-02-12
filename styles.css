@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+}
+
+header {
+  width: 100%;
+  background-color: rgb(57, 60, 74);
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+body {
+  background-color: rgb(35, 37, 42);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-title {
+  margin: 20px 40px;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.header-ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.header-ul li {
+  margin: 20px 40px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.post-box {
+  margin-top: 110px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 1000px;
+  width: 80%;
+}
+
+.post,
+.no-posts-div {
+  background-color: rgb(57, 60, 74);
+  width: 85%;
+  font-size: 18px;
+  color: white;
+  border-radius: 8px;
+  margin-top: 40px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.post-title {
+  margin: 15px 15px 7px 15px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.post-author {
+  margin: 7px 15px;
+  color: rgb(180, 180, 180);
+}
+
+.post-text {
+  margin: 7px 15px 15px 15px;
+}
+
+.create-post {
+  margin-top: 130px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.create-post-title {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.create-post-title-input,
+.create-post-author-input {
+  font-size: 20px;
+  width: 500px;
+  height: 50px;
+  margin: 30px;
+  border-radius: 10px;
+  padding-left: 10px;
+  border: none;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  background-color: rgb(57, 60, 74);
+  color: white;
+}
+
+.create-post-textarea {
+  width: 700px;
+  height: 200px;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(57, 60, 74);
+  margin-top: 30px;
+  color: white;
+  border: none;
+}
+
+.create-post-author-input {
+  width: 350px;
+}
+
+.ul-link {
+  text-decoration: none;
+  color: white;
+}
+
+.post-button {
+  background-color: rgb(57, 60, 74);
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 30px;
+  margin-top: 40px;
+  width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.clear-button {
+  background-color: rgb(57, 60, 74);
+  color: white;
+  border: none;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
+  margin-top: 200px;
+  padding: 40px 100px;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+.no-posts-message {
+  margin: 30px;
+  font-size: 25px;
+}
+
+.no-posts-div {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}
